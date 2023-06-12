@@ -1,11 +1,13 @@
 <script>
 import NavHeader from './subHeader/navHeader.vue';
 import presentation_smItems from './subHeader/presentation_smItems.vue';
+import jumbotron from './subHeader/jumbotron.vue';
 export default {
     name: "AppHeader",
     components: {
         presentation_smItems,
-        NavHeader
+        NavHeader,
+        jumbotron
     }
 }
 
@@ -16,6 +18,8 @@ export default {
     <div class="container">
         <presentation_smItems />
         <navHeader />
+        <jumbotron />
+
 
     </div>
 </template>

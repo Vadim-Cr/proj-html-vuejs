@@ -41,6 +41,11 @@ export default {
             color: $tertiary;
             border-radius: 8px;
             margin: 0 0.1rem 0 0.1rem;
+
+            &:hover {
+                background-color: #75dad0;
+            }
+
         }
     }
 
