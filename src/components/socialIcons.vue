@@ -1,18 +1,16 @@
 <script>
-import socialIcons from '../socialIcons.vue';
 
 export default {
-    name: "firstHeadHeader",
-    components: {
-        socialIcons,
-    }
+    name: "socialIcons",
 }
 </script>
 
 <template>
-    <div class="container-up">
+    <div class="icons">
         <div class="left">
-            <p>Avada & Associates legal team announces deal to open up oil & gas</p>
+            <a href="#">
+
+            </a>
         </div>
 
         <div class="right"></div>
