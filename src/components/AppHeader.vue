@@ -1,9 +1,9 @@
 <script>
-import firstHeadContainer from './subHeader/firstHeadContainer.vue';
+import presentation_smItems from './subHeader/presentation_smItems.vue';
 export default {
     name: "AppHeader",
     components: {
-        firstHeadContainer,
+        presentation_smItems,
     }
 }
 
@@ -12,7 +12,7 @@ export default {
 
 <template>
     <div class="container">
-        <firstHeadContainer />
+        <presentation_smItems />
     </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
 @use '../components/style/general.scss' as *;
 
 .container {
-    border-top: 2px solid $primary;
+    border-top: 4px solid $primary;
     height: 10rem;
     width: 100%;
     background-color: $secondary;
