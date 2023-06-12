@@ -1,9 +1,11 @@
 <script>
+import NavHeader from './subHeader/navHeader.vue';
 import presentation_smItems from './subHeader/presentation_smItems.vue';
 export default {
     name: "AppHeader",
     components: {
         presentation_smItems,
+        NavHeader
     }
 }
 
@@ -13,6 +15,8 @@ export default {
 <template>
     <div class="container">
         <presentation_smItems />
+        <navHeader />
+
     </div>
 </template>
 

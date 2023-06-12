@@ -29,11 +29,12 @@ export default {
 .container-up {
     @include center_between;
     height: 4rem;
-    width: 60%;
+    width: 70%;
     background-color: $secondary;
+    font-family: $familyFont;
 
     .left {
-        width: 70%;
+        width: 80%;
 
         p {
             color: $quinary;
@@ -41,7 +42,9 @@ export default {
     }
 
     .right {
-        width: 30%;
+        width: 20%;
+        display: flex;
+        justify-content: end;
     }
 }
 </style>

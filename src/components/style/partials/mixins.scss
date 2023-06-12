@@ -4,3 +4,9 @@
     align-items: center;
     margin: auto;
 }
+
+@mixin center_flex {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}

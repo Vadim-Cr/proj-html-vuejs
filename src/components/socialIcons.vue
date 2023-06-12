@@ -27,10 +27,12 @@ export default {
 @use './style/general.scss' as *;
 
 .icons {
-    @include center_between;
+    @include center_flex;
+    justify-content: end;
     width: 12rem;
 
     a {
+        margin: 0 0.5rem;
 
         i {
             font-size: 1.2rem;
