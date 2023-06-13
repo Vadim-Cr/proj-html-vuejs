@@ -29,9 +29,6 @@ export default {
         <teamResponse />
         <Envato />
         <IPE />
-
-
-
     </div>
 </template>
 
