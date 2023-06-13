@@ -3,6 +3,8 @@ import companyPresentation from './subMain/companyPresentation.vue';
 import vision from './subMain/vision.vue';
 import askExpert from './subMain/askExpert.vue';
 import teamResponse from './subMain/teamResponse.vue';
+import Envato from './subMain/envato.vue';
+import IPE from './subMain/IPE.vue';
 
 export default {
     name: "AppMain",
@@ -10,8 +12,9 @@ export default {
         companyPresentation,
         vision,
         askExpert,
-        teamResponse
-
+        teamResponse,
+        Envato,
+        IPE
     }
 }
 
@@ -24,6 +27,9 @@ export default {
         <vision />
         <askExpert />
         <teamResponse />
+        <Envato />
+        <IPE />
+
 
 
     </div>
