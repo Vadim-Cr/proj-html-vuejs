@@ -2,13 +2,15 @@
 import companyPresentation from './subMain/companyPresentation.vue';
 import vision from './subMain/vision.vue';
 import askExpert from './subMain/askExpert.vue';
+import teamResponse from './subMain/teamResponse.vue';
 
 export default {
     name: "AppMain",
     components: {
         companyPresentation,
         vision,
-        askExpert
+        askExpert,
+        teamResponse
 
     }
 }
@@ -21,6 +23,7 @@ export default {
         <companyPresentation />
         <vision />
         <askExpert />
+        <teamResponse />
 
 
     </div>
