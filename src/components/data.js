@@ -8,7 +8,7 @@ export default [
     },
     {
         type: 'organizationInfo',
-        details: [
+        organizationInfo: [
             {
                 title: 'Who We Are',
                 text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
@@ -28,7 +28,7 @@ export default [
     },
     {
         type: 'offers',
-        details: [
+        visionArray: [
             {
                 icon: 'iconCheck',
                 title: 'A Global View',
