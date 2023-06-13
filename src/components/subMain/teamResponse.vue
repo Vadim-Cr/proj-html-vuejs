@@ -1,11 +1,15 @@
 
 <script>
 import ourPeople from './sub_Team_response/ourPeople.vue';
+import ourPractices from './sub_Team_response/ourPractice.vue';
+import ourPublications from './sub_Team_response/ourPublications.vue';
 
 export default {
     name: "teamResponse",
     components: {
         ourPeople,
+        ourPractices,
+        ourPublications
     },
 
 }
@@ -13,12 +17,12 @@ export default {
 
 
 <template>
-    <div class="myTeamContainer">
+    <div class="myTRContainer">
         <h1>GLOBAL CHALLENGE. WORLD CLASS RESPONSE</h1>
-        <div class="myTeamPresentation">
+        <div class="myTRPresentation">
             <ourPeople />
-            <!-- <practiceCard :mySections="companySections" /> -->
-            <!-- <publicationCard :mySections="companySections" /> -->
+            <ourPractices />
+            <ourPublications />
         </div>
     </div>
 </template>
@@ -28,7 +32,7 @@ export default {
 @use '../style/partials/mixins.scss' as *;
 @use '../style/general.scss' as *;
 
-.myTeamContainer {
+.myTRContainer {
     background-color: $tertiary;
     padding-top: 8rem;
     font-family: $familyFont;
@@ -52,7 +56,7 @@ export default {
         }
     }
 
-    .myTeamPresentation {
+    .myTRPresentation {
         display: flex;
         text-align: center;
         width: 70%;

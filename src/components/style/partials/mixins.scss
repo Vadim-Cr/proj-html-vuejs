@@ -5,6 +5,13 @@
     margin: auto;
 }
 
+@mixin center_start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+}
+
 @mixin center_flex {
     display: flex;
     align-items: center;

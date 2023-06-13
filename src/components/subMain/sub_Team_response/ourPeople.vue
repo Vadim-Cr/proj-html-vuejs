@@ -39,23 +39,27 @@ export default {
 @use '../../style/partials/mixins.scss' as *;
 @use '../../style/general.scss' as *;
 
-// .myTeamContainer {
-//     background-color: $tertiary;
-//     padding-top: 8rem;
-//     font-family: $familyFont;
-//     border-top: 1px solid #dad9d9;
-//     text-align: center;
+.myTeamContainer {
+    width: calc(100% / 3);
 
-//     .myTeamPresentation {
-//         display: flex;
-//         text-align: center;
-//         width: 70%;
-//         margin: auto;
-//         min-height: 20rem;
-//         margin-top: 3rem;
+    h3 {
+        margin-bottom: 3rem;
+    }
+
+    .myTeamPresentation {
+        @include center_start;
+        padding: 1rem;
+        background-color: $secondary;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
 
 
-//     }
-// }
+        p {
+            margin-left: 1.8rem;
+            font-weight: bold;
+            color: $quinary;
+        }
+    }
+}
 </style>
 
