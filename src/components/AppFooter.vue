@@ -1,4 +1,5 @@
 <script>
+import BottomFooter from './subFooter/bottomFooter.vue';
 import letsWorkTogether from './subFooter/letsWorkTogether.vue';
 
 
@@ -6,6 +7,7 @@ export default {
     name: "AppFooter",
     components: {
         letsWorkTogether,
+        BottomFooter
     }
 }
 
@@ -13,8 +15,9 @@ export default {
 </script>
 
 <template>
-    <div class="containerMain">
+    <div class="containerFooter">
         <letsWorkTogether />
+        <BottomFooter />
 
     </div>
 </template>
