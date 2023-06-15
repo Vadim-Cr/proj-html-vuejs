@@ -28,7 +28,7 @@ export default {
 
 .containerFooter {
     min-height: 10rem;
-    margin-top: 28rem;
+    // margin-top: 8rem;
     width: 100%;
     background-color: $secondary;
 }

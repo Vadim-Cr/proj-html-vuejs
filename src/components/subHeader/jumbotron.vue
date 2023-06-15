@@ -18,5 +18,8 @@ export default {
 .jumboContainer {
     height: 30rem;
     background-image: url(../../assets/img/video_law_home_preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 </style>

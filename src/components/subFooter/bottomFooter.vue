@@ -72,6 +72,7 @@ export default {
                         background-color: $secondary;
                         border: 2px solid $primary;
                         padding: 0.5rem;
+                        cursor: pointer;
                     }
                 }
 
@@ -91,6 +92,7 @@ export default {
                             background-color: $secondary;
                             border: 2px solid $primary;
                             padding: 0.5rem;
+                            cursor: pointer;
                         }
                     }
                 }
